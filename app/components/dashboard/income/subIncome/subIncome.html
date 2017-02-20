@@ -1,0 +1,10 @@
+ <div class="panel panel-default">
+        <h2> Total Income : {{totalAmt}}</h2>   
+        <div>
+            <ul style="margin:0px; padding:0px">
+                <li *ngFor="let item of incomeCatData" onclick="">
+                    <span class="pull-left">{{item.catName}} </span> : <span class="pull-right">{{item.catTotalAmt}}</span>
+                </li>
+            </ul>
+        </div>   
+ </div>

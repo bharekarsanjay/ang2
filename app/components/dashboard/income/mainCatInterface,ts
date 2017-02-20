@@ -1,0 +1,9 @@
+export interface MainCatInterface {
+            catid:number,
+            catName:string,
+             catTotalAmt:0, 
+             catData:[],
+             monthData:[]
+
+
+}
